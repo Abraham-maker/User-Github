@@ -33,3 +33,10 @@ body {
     width: 25%;
     height: 2.5em;
 }
+
+.container-p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+}
