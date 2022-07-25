@@ -14,9 +14,6 @@ function App() {
           <Route path='/info' element={<Info />} />
         </Routes>
       </Router>
-      <div className='container-p'>
-        <p>Made with love by Abraham-Moreno 💙</p>
-      </div>
     </>
   )
 }

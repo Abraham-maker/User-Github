@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../../styles/Home.css';
 import Logo from '../assets/github-logo.png';
 import Github from '../assets/github.png';
 
 const Home = () => {
+
   return (
     <>
       <div className='container'>
@@ -19,6 +21,9 @@ const Home = () => {
             placeholder='Search User-GitHub'
           />
         </form>
+      </div>
+      <div className="container-p">
+        <p>Made with love by Abraham-Moreno 💙</p>
       </div>
     </>
   )

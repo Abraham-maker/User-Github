@@ -1,10 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Space Mono", monospace;
+
 }
 
 body {
-    background-color: #16161a;
+    background-color: #141c2f;
 }
 
 .container {
@@ -30,8 +32,9 @@ body {
     font-size: 18px;
     font-weight: bold;
     padding-left: 1em;
-    width: 25%;
+    width: 35%;
     height: 2.5em;
+    margin-bottom: 3em;
 }
 
 .container-p {
